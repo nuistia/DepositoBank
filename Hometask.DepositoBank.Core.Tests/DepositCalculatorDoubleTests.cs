@@ -7,6 +7,7 @@ namespace Hometask.DepositoBank.Core.Tests;
 public class DepositCalculatorDoubleTests
 {
     [Test]
+    [TestCase(0, 0)]
     [TestCase(1.0, 1.05)]
     [TestCase(99.0, 103.95)]
     [TestCase(100.0, 107)]
@@ -25,6 +26,7 @@ public class DepositCalculatorDoubleTests
     }
 
     [Test]
+    [TestCase(0, 15)]
     [TestCase(1.0, 16.05)]
     [TestCase(99.0, 118.95)]
     [TestCase(100.0, 122)]
@@ -43,7 +45,7 @@ public class DepositCalculatorDoubleTests
     }
 
     [Test]
-    [TestCase(0)]
+    [TestCase(-0.01)]
     [TestCase(-1)]
     public void Deposit_InvalidDoubleValue_ThrowsArgumentOutOfRangeException(double money)
     {

@@ -9,7 +9,7 @@ public class DepositCalculatorDouble : IDepositCalculator<double>
 
     public double Deposit(double money, Bonuses bonus = Bonuses.No)
     {
-        ArgumentOutOfRangeException.ThrowIfNegativeOrZero(money);
+        ArgumentOutOfRangeException.ThrowIfNegative(money);
 
         var rates = DepositPercentageDouble.Rates;
         double result = 0;
