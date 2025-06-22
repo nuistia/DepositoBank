@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hometask.DepositoBank.Core\Hometask.DepositoBank.Core.csproj" />
+  </ItemGroup>
+
 </Project>
