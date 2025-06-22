@@ -1,9 +1,4 @@
-﻿namespace Hometask.DepositoBank.App;
+﻿using Hometask.DepositoBank.App.UserInterfaces;
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        
-    }
-}
+var userInterface = new ConsoleInterface();
+userInterface.Start();

@@ -61,6 +61,24 @@ namespace Hometask.DepositoBank.App.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your new balance (deposited) is:.
+        /// </summary>
+        internal static string DepositedBalance {
+            get {
+                return ResourceManager.GetString("DepositedBalance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your new balance (deposited) with bonus is:.
+        /// </summary>
+        internal static string DepositedBalanceWithBonus {
+            get {
+                return ResourceManager.GetString("DepositedBalanceWithBonus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please, enter your balance (must be 0.01 or more):.
         /// </summary>
         internal static string EnterBalance {
@@ -72,7 +90,7 @@ namespace Hometask.DepositoBank.App.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ===Bank &quot;Deposito&quot;===
         ///
-        ///Made by Anastasiia Atanasevych © Copyright 2024.
+        ///Made by Anastasiia Atanasevych © Copyright 2025.
         ///.
         /// </summary>
         internal static string Greeting {
@@ -94,7 +112,8 @@ namespace Hometask.DepositoBank.App.Properties {
         ///   Looks up a localized string similar to These are our current rates:
         ///Rate S: from 0.01 to 99 - 5%
         ///Rate M: from 100 to 199 - 7%
-        ///Rate L: from 200 - 10%..
+        ///Rate L: from 200 - 10%.
+        ///.
         /// </summary>
         internal static string Rates {
             get {

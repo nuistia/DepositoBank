@@ -117,13 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DepositedBalance" xml:space="preserve">
+    <value>Your new balance (deposited) is:</value>
+  </data>
+  <data name="DepositedBalanceWithBonus" xml:space="preserve">
+    <value>Your new balance (deposited) with bonus is:</value>
+  </data>
   <data name="EnterBalance" xml:space="preserve">
     <value>Please, enter your balance (must be 0.01 or more):</value>
   </data>
   <data name="Greeting" xml:space="preserve">
     <value>===Bank "Deposito"===
 
-Made by Anastasiia Atanasevych © Copyright 2024.
+Made by Anastasiia Atanasevych © Copyright 2025.
 </value>
   </data>
   <data name="NoAttemps" xml:space="preserve">
@@ -133,7 +139,8 @@ Made by Anastasiia Atanasevych © Copyright 2024.
     <value>These are our current rates:
 Rate S: from 0.01 to 99 - 5%
 Rate M: from 100 to 199 - 7%
-Rate L: from 200 - 10%.</value>
+Rate L: from 200 - 10%.
+</value>
   </data>
   <data name="WrongInput" xml:space="preserve">
     <value>Invalid balance: please, try to enter correct balance.</value>
